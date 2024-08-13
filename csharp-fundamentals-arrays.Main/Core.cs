@@ -26,7 +26,7 @@ namespace csharp_fundamentals_arrays.Main
 
         public int[] one()
         {
-            throw new NotImplementedException();
+           
             int[] numbers = { 42, 13, 17, 91 };
 
             // 1. Values contained in an array are each stored at a unique numeric index, starting from 0 ascending in order.
@@ -34,7 +34,8 @@ namespace csharp_fundamentals_arrays.Main
             // Using an index, change the number 17 in the numbers array to 68
             // WRITE YOUR CODE BETWEEN THIS LINE...
 
-
+            // numbers.SetValue(68, 2);
+            numbers[2] = 68;
 
             // ... AND THIS LINE
 
